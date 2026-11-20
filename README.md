@@ -16,6 +16,12 @@ Gas bocor di dapur tidak berbau dan tidak terlihat, apalagi saat kamu tidur. Ala
 | LED hijau + LED merah | Indikator aman / bahaya |
 | Resistor 220 ohm (2x) | Untuk LED |
 
+## Skema rangkaian
+
+![Skema rangkaian](schematic.png)
+
+Arus kipas: 12V+ → COM relay → NO relay → Kipas (+) → Kipas (−) → GND 12V. GND 12V dan GND ESP32 disatukan.
+
 ## Wiring
 
 | Komponen | Pin ESP32 |
